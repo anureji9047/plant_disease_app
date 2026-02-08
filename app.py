@@ -23,3 +23,5 @@ if uploaded_file is not None:
     result = classes[np.argmax(prediction)]
 
     st.success("Prediction: " + result)
+
+
